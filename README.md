@@ -1,47 +1,54 @@
-# Clinica Veterinaria Dr Leo - Grupo 8
+﻿# Clinica Veterinaria Dr Leo - Grupo 8
 
 Sistema academico desarrollado en Python para la gestion de una clinica veterinaria.  
-Permite registrar propietarios mascotas citas consultas pagos historial clinico recordatorios y reportes.
+El proyecto permite registrar propietarios, mascotas, citas, consultas, pagos, historial clinico, recordatorios y reportes.
 
 ## Funciones principales
 
-- Registro y edicion de propietarios
-- Proteccion de DNI y celular
-- Registro de mascotas con sexo y esterilizado
-- Gestion de citas veterinarias
-- Registro de consultas con diagnostico tratamiento y vacuna
-- Registro de pagos con concepto monto metodo y estado
-- Historial clinico por mascota
-- Recordatorios de citas
-- Reportes diarios
-- Exportacion CSV
-- Persistencia en JSON y SQLite
+- Registro y edicion de propietarios.
+- Proteccion de DNI y numero de celular.
+- Registro de mascotas con sexo y estado de esterilizacion.
+- Gestion de citas veterinarias.
+- Registro de consultas con diagnostico, tratamiento y vacuna.
+- Registro de pagos con concepto, monto, metodo y estado.
+- Generacion de historial clinico por mascota.
+- Generacion de recordatorios de citas.
+- Generacion de reportes diarios.
+- Exportacion de datos en CSV.
+- Persistencia de datos en JSON y SQLite.
 
 ## Estructura del proyecto
 
-- main.py: punto de entrada de la aplicacion
-- gui/app.py: interfaz grafica en Tkinter
-- models/entidades.py: entidades principales del sistema
-- services/clinica_service.py: reglas de negocio persistencia y exportacion
-- 	ests/test_clinica_service.py: pruebas automatizadas
-- ssets/fondo.png: fondo visual de la aplicacion
+| Archivo o carpeta | Descripcion |
+| --- | --- |
+| `main.py` | Punto de entrada de la aplicacion |
+| `gui/app.py` | Interfaz grafica desarrollada con Tkinter |
+| `models/entidades.py` | Entidades principales del sistema |
+| `services/clinica_service.py` | Reglas de negocio, persistencia y exportacion |
+| `tests/test_clinica_service.py` | Pruebas automatizadas |
+| `assets/fondo.png` | Recurso visual usado como fondo |
 
 ## Ejecucion
 
-En Visual Studio Code o PowerShell ejecutar:
+Desde Visual Studio Code o PowerShell ejecutar:
 
-`ash
+```bash
 python main.py
-Flujo recomendado de uso
-1. Registrar propietarios
-2. Registrar mascotas
-3. Gestionar citas
-4. Registrar consultas
-5. Registrar pagos
-6. Revisar historial clinico
-7. Generar recordatorios
-8. Generar reportes
-Tecnologias utilizadas
+```
+
+## Flujo recomendado de uso
+
+1. Registrar propietarios.
+2. Registrar mascotas.
+3. Gestionar citas.
+4. Registrar consultas.
+5. Registrar pagos.
+6. Revisar historial clinico.
+7. Generar recordatorios.
+8. Generar reportes.
+
+## Tecnologias utilizadas
+
 - Python
 - Tkinter
 - SQLite
@@ -49,13 +56,17 @@ Tecnologias utilizadas
 - CSV
 - Pytest
 - Git y GitHub
-Buenas practicas aplicadas
-- Separacion por carpetas
-- Uso de clases
-- Manejo de errores
-- Pruebas automatizadas
-- Proteccion de datos personales
-- Commits descriptivos en espa�ol
-Autor
-Grupo 8
-Proyecto academico del curso Lenguajes de Programacion
+
+## Buenas practicas aplicadas
+
+- Separacion del proyecto por carpetas.
+- Uso de clases para representar entidades.
+- Manejo de errores y validaciones.
+- Pruebas automatizadas.
+- Proteccion de datos personales.
+- Commits descriptivos en español.
+- Interfaz grafica ordenada por flujo de trabajo.
+
+## Proyecto academico
+
+Proyecto desarrollado por el Grupo 8 para el curso Lenguajes de Programacion.
